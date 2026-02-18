@@ -2,7 +2,7 @@ name: roman_converter
 description: "Roman converter app"
 publish_to: "none"
 
-version: 1.0.0+1
+version: 1.0.0+3
 
 environment:
   sdk: ^3.7.0
@@ -11,6 +11,9 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
+  google_mobile_ads: ^5.1.0
+  shared_preferences: ^2.3.2
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:
